@@ -1,0 +1,19 @@
+.section-1 {
+    position: absolute;
+    top: 121px;
+    
+    
+}
+
+.video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}

@@ -1,0 +1,76 @@
+.slick-arrow {
+  width: 45px;
+  height: 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50%;
+  z-index: 2;
+  opacity: .8;
+}
+
+.slick-arrow.slick-disabled {
+  opacity: 0;
+  cursor: default;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  content: none;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-prev:hover {
+  background-image: url('../img/left-hov.png')!important;
+}
+
+.slick-next {
+  right: 0;
+}
+
+.slick-next:hover {
+  background-image: url('../img/right-hov.png')!important;
+}
+
+.slick-dots {
+  bottom: -50px;
+}
+
+.slick-dots li {
+  width: 15px;
+}
+
+.slick-dots li button:before {
+  content: none;
+}
+
+.slick-dots li::before {
+  content: '';
+  background: #C4C4C4;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: block;
+}
+
+
+.slick-dots li.slick-active::before {
+  background: #F7CE2A;
+  top: 8px;
+}
+
+@media (max-width: 650px) {
+  .slick-dots {
+    bottom: -38px;
+  }
+  .slick-dots li {
+    width: 6px;
+  }
+  .slick-dots li::before {
+    width: 6px;
+    height: 6px;
+  }
+}
