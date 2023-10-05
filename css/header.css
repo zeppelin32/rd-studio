@@ -12,7 +12,7 @@
 .header-container {
     width: 1900px;
     max-width: 1900px;
-    padding: 25px;
+    padding: 25px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@
 }
 
 .navbar-img {
-    width: 75px;
+    width: 90px;
 }
 
 .navbar-menu-container {
@@ -50,12 +50,12 @@
 
 .navbar-menu--elem,
 .navbar-lang {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 500;
 }
 
 .navbar-lang-container {
-    width: 100px;
+    /* width: 100px; */
 }
 
 .navbar-lang {

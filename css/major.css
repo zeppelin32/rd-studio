@@ -4,5 +4,16 @@ body {
 }
 
 .container {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 40px;
+}
 
+a,
+button {
+    cursor: pointer;
 }
