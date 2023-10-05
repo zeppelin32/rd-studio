@@ -1,8 +1,11 @@
 @import "./normalize.css";
 @import "./major.css";
+@import "./fonts.css";
+
 @import "./header.css";
-@import "./section-1.css"
-/* @import "./fonts.css"; */
+@import "./section-1.css";
+@import "./services.css";
+
 /* @import "./slick-custom.css"; */
 
 

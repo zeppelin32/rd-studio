@@ -1,0 +1,33 @@
+.services {
+    background-color: #000;
+}
+
+.services-container {
+    /* display: flex; */
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.services-title {
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.services-blocks {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.services-blocks--item {
+    min-width: 200px;
+    min-height: 200px;
+    box-shadow: 0 0 0 1px #6c6b69;
+    flex: 0 0 33.333333%;
+    aspect-ratio: 1 / 1;
+}
