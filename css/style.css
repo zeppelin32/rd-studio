@@ -1,6 +1,7 @@
 @import "./normalize.css";
 @import "./major.css";
 @import "./fonts.css";
+@import "./scrollbar.css";
 
 @import "./header.css";
 @import "./section-1.css";

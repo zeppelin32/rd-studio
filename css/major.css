@@ -1,6 +1,13 @@
+:root {
+    --red: #ef0000;
+}
+
 body {
     position: relative;
     font-family: 'Montserrat', sans-serif;
+    /* for scrollbar */
+    /* transition: 2s; */
+
 }
 
 .container {

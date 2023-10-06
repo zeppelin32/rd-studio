@@ -9,6 +9,7 @@ $(document).ready(function () {
 	  'GAME PLAY TRAILERS'
   ]
 
+  $(body).overlayScrollbars();
 
   // $("#service-1").modal({
   //   fadeDuration: 500
