@@ -26,16 +26,8 @@
     display: flex;
 }
 
-.navbar-img-container {
-    /* position: relative; */
-    /* width: 150px; */
-}
-
 .navbar-img-container a {
-    /* position: absolute; */
     display: block;
-    /* top: 0;
-    left: 0; */
 }
 
 .navbar-img {
@@ -52,10 +44,17 @@
     padding: 0 20px;
 }
 
+.navbar-menu--elem:hover, 
+.navbar-lang:hover {
+    color: #ef0000;
+} 
+
 .navbar-menu--elem,
 .navbar-lang {
     font-size: 28px;
     font-weight: 500;
+    transition: color .6s;
+    color: white;
 }
 
 .navbar-lang-container {

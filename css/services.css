@@ -2,32 +2,114 @@
     background-color: #000;
 }
 
+
 .services-container {
-    /* display: flex; */
     width: 100%;
     max-width: 1900px;
     margin: 0 auto;
-    /* align-items: center; */
-    /* flex-direction: column; */
+    padding: 80px 0;
 }
 
 .services-title {
-    padding-top: 50px;
+    padding-top: 80px;
     font-size: 60px;
     font-weight: 700;
+    text-align: center;
 }
 
 .services-blocks {
-    padding: 50px 0;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
 .services-blocks--item {
-    min-width: 200px;
-    min-height: 200px;
-    box-shadow: 0 0 0 1px #6c6b69;
-    flex: 0 0 33.333333%;
+    flex: 0 0 33.3333333333%;
     aspect-ratio: 1 / 1;
+    background-image: url("../img/serv1.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fffbf5;
+}
+
+.services-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: #000;
+    position: relative;
+    box-shadow: 0 0 0 1px #6c6b69;
+}
+
+.services-item-title {
+    font-size: 32px;
+    color: #fffbf5;
+}
+
+.services-item-container,
+.services-item-button,
+.services-item-title {
+    transition: .65s;
+}
+
+
+.services-item-button {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    background: red;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 3px 0 4px 1px #ecc6c69d;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-item-button--up {
+    top: 50px;
+    bottom: auto;
+}
+
+.services-item-button,
+.services-blocks--item:hover .services-item-title {
+    opacity: 0;
+}
+
+.services-blocks--item:hover .services-item-button {
+    opacity: 1;
+}
+
+.services-blocks--item:hover .services-item-container {
+    background: none;
+}
+
+.services-right {
+    font-size: 28px;
+}
+
+
+
+.service-modal {
+    max-width: 1000px;
+}
+
+.close-modal {
+    transition: .5s;
+}
+
+.close-modal:hover {
+    scale: 1.2;
+}
+
+#services::before {
+	display: block;
+	content: "";
+	height: 80px;
+	margin: -80px 0 0;
 }
