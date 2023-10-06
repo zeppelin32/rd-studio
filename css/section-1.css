@@ -1,11 +1,11 @@
 .section-1 {
     position: absolute;
-    top: 143px;
+    /* top: 143px; */
     display: flex;
     align-items: center;
 
     width: 100%;
-    min-height: calc(100vh - 143px);
+    min-height: 100vh;
 }
 
 .video-wrapper {

@@ -3,7 +3,7 @@
 }
 
 .header {
-     background-color: #000;
+     /* background-color: #000; */
      display: flex;
      justify-content: center;
      position: fixed;
@@ -42,11 +42,15 @@
 .navbar-menu--elem {
     text-transform: uppercase;
     padding: 0 20px;
+    transition: 1s;
+    background-image: url('../img/vectorpaint\ \(1\).svg');
+    background-size: 0;
 }
 
 .navbar-menu--elem:hover, 
 .navbar-lang:hover {
-    color: #ef0000;
+    /* color: #ef0000; */
+    background-size: 100%;
 } 
 
 .navbar-menu--elem,
